@@ -1,0 +1,133 @@
+html,body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:sans-serif;
+    background-color: #e6f2ff;
+    color: #1a1a1a;
+}
+    
+.box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    padding-bottom: 20px;
+    position:fixed ;
+    
+}
+
+.b1, .b2 , .b3 , .b4 , .b5{
+    background: #1976d2;
+    padding: 16px ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.headx{
+    width: 100%;
+    height: 15%;
+    background-color: #222222;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 20px;
+    transition: transform 0.6 ease ;
+    width: 100%;
+
+}
+
+
+.bottom{
+    text-align: center;
+    background-color: #1976d2;
+    padding: 30px;
+}
+
+.fr {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    width: 40%;
+}
+
+.fr:hover{
+ transform: scale(1.06);
+ z-index: 2;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: medium;   
+    font-weight: bold; 
+}
+
+
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    
+}
+
+.containeru{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family:sans-serif;
+    background-color: #e6f2ff;
+    color: #1a1a1a;
+}
+
+.feed{
+    text-align: center;
+    font-weight: bold;
+}
+
+.form{
+    margin: 5px;
+    gap: 5px;
+}
+
+.message{
+    height: 100px;
+}
+
+.submit{
+    width: 12%;
+    height: 9%;
+    border-radius: 5px;
+}
