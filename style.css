@@ -141,7 +141,7 @@ html,body {
     .images{ 
         flex-direction: column;
         align-items: center;
-        gap: 10%;
+        gap: 15px;
     }
 
     .fr{
@@ -171,3 +171,4 @@ html,body {
 @media (max-width:600px){
     .des{margin-top:300px;}
 }
+
