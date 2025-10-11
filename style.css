@@ -97,6 +97,7 @@ html,body {
     display: flex;
     flex-direction: column;
     justify-items: left;
+    font-weight: bold;
     
 }
 
@@ -171,4 +172,5 @@ html,body {
 @media (max-width:600px){
     .des{margin-top:300px;}
 }
+
 
