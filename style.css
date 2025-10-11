@@ -92,6 +92,7 @@ html,body {
     font-weight: bold; 
     background-color: #e6f2ff;
     padding: 0  15px;
+    padding-bottom: 10px;
 }
 
 
@@ -175,6 +176,7 @@ html,body {
 @media (max-width:600px){
     .des{margin-top:300px;}
 }
+
 
 
 
